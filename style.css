@@ -136,4 +136,8 @@ footer {
     .drinkX img:last-child {
         float: none;
     }
+
+    footer {
+        font-size: large;
+    }
 }
