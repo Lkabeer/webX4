@@ -100,6 +100,7 @@ footer {
     font-size: small;
     margin-top: 20px;
     text-shadow: 1px 1px 8px #000;
+    clear: both;
 }
 
 ::-webkit-scrollbar {
