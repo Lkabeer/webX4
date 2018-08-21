@@ -118,11 +118,22 @@ footer {
 
 @media screen and (max-width: 500px) {
     div {
-        height: 320px;
+        height: 340px;
+    }
+
+    .drinkX {
+        text-align: center;
+        height: 680px;
     }
 
     .drinkX img {
+        display: block;
+        margin: 0 auto;
         max-width: 320px;
         margin-bottom: 40px;
+    }
+
+    .drinkX img:last-child {
+        float: none;
     }
 }
