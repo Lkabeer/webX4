@@ -4,6 +4,10 @@
     -moz-transition: all .3s ease-in-out 0s;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     max-width: 900px;
     margin: 0 auto;
@@ -22,7 +26,35 @@ header {
     text-align: center;
 }
 
-div {
+nav li {
+    display: inline;
+}
+
+nav ul {
+    padding: 5px;
+    list-style-type: none;
+    font-size: large;
+    border-radius: 7px;
+    background: rgba(230, 181, 126, 0.5);
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 20px;
+}
+
+nav a:hover {
+    font-size: x-large;
+}
+
+/* .bodyX:after {
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+.divX {
     height: 220px;
     position: relative;
     border-radius: 12px;
@@ -37,11 +69,11 @@ img {
     max-width: 100%;
 }
 
-.bakeX {
+#bakeX {
     background-image: url('assets/C2Opti.jpg');
 }
 
-.coffeeX {
+#latteX {
     background-image: url('assets/c11.jpg');
 }
 
@@ -63,23 +95,17 @@ section {
     height: 70%;
 }
 
-.drinkX {
+#drinkX {
     background-image: none;
     height: auto;
 }
 
-/* .drinkX::after {
-    content: "";
-    display: block;
-    clear: both;
-} */
-
-.drinkX img {
+#drinkX img {
     border-radius: 12px;
     display: inline-block;
 }
 
-.drinkX img:last-child {
+#drinkX img:last-child {
     float: right;
 }
 
@@ -98,10 +124,11 @@ footer {
     background-color: rgba(230, 181, 126, 0.8);
     border-radius: 5px 5px 0 0;
     padding: 2px;
+    margin-top: 10px;
     text-align: center;
     font-size: small;
-    margin-top: 10px;
     text-shadow: 1px 1px 8px #000;
+    clear: both;
 }
 
 ::-webkit-scrollbar {
@@ -118,18 +145,18 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
-    .drinkX {
+    #drinkX {
         text-align: center;
         height: auto;
     }
 
-    .drinkX img {
+    #drinkX img {
         display: block;
         margin: 0 auto;
         margin-bottom: 20px;
     }
 
-    .drinkX img:last-child {
+    #drinkX img:last-child {
         float: initial;
     }
 }
