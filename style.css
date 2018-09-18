@@ -134,8 +134,12 @@ footer {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     div {
         height: 320px;
+    }
+
+    .show section, section:hover {
+        height: auto;
     }
 }
