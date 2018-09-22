@@ -131,7 +131,11 @@ footer {
     clear: both;
 }
 
+/* GotoTop X-Team */
 #topX {
+    position: sticky;
+    top: 90%;
+    z-index: 7;
     background-color: rgba(185, 118, 40, 0.3);
     margin-right: 20px;
     padding: 5px 12px;
@@ -139,9 +143,6 @@ footer {
     font-size: large;
     border-radius: 7px;
     float: right;
-    position: sticky;
-    top: 90%;
-    z-index: 7;
     display: none;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, .5); 
 }
@@ -151,6 +152,7 @@ footer {
     top: 88%;
 }
 
+/* Scrollbar X-Team */
 ::-webkit-scrollbar {
     width: 5px;
 }
@@ -164,7 +166,7 @@ footer {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 991px) {
     #drinkX {
         text-align: center;
         height: auto;
