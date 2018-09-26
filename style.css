@@ -22,13 +22,17 @@ body {
     text-shadow: 2px 2px 4px #000;
 }
 
+h1, h2 {
+    font-weight: normal;
+    color: #e6b57e;
+}
+
 header {
     text-align: center;
 }
 
-h1, h2 {
-    font-weight: normal;
-    color: #e6b57e;
+header img {
+    max-width: 302px;
 }
 
 #navX li {
